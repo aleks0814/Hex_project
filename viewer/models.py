@@ -19,18 +19,7 @@ class AccountTiers(models.Model):
         return f'{self.name}'
 
 
-class UserManager(BaseUserManager):
-
-    def create_user(self, email, password=None, **kwargs):
-        user = self.model(email=email, **kwargs)
-        user.set_password(password)
-        user.acc_tier = AccountTiers.name.default
-        user.save()
-        return user
-
-
 class User(AbstractUser):
-    objects = UserManager()
     acc_tier = models.ForeignKey(AccountTiers, on_delete=models.SET_NULL, null=True, default=1)
 
 

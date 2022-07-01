@@ -1,0 +1,190 @@
+[
+  {
+    "model": "viewer.accounttiers",
+    "pk": 1,
+    "fields": {
+      "name": "BS"
+    }
+  },
+  {
+    "model": "viewer.accounttiers",
+    "pk": 2,
+    "fields": {
+      "name": "PR"
+    }
+  },
+  {
+    "model": "viewer.accounttiers",
+    "pk": 3,
+    "fields": {
+      "name": "EP"
+    }
+  },
+  {
+    "model": "viewer.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$6pinkZD0WMrOHaEgMNZBXP$x3X6xJWcgJ0WjvlwGQ6lxfNma2dBgSTyNctejrwkbVk=",
+      "last_login": "2022-06-30T11:23:31.008Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-06-24T15:49:00Z",
+      "acc_tier": 3,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "viewer.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$aFzR6NjoSZAaDYkE8BkpWV$jN0Yyqvb8vaYMY5wkmRzKcbsiPY34COeKbPMmZ2D43Q=",
+      "last_login": "2022-07-01T10:07:00.153Z",
+      "is_superuser": false,
+      "username": "test",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-06-27T10:33:37Z",
+      "acc_tier": 1,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "viewer.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$WZyTuXaRwFAPZdlitVvmww$VgJbfVPT431jPdtnTD7n1koDi/yKXIo98SbiIY759yA=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "bazowy",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-06-27T14:27:00.454Z",
+      "acc_tier": 1,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "viewer.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$wQ5oTqWwvIF03Q5PWlLSNJ$P2jlusMICJbcd0y6BmP/APggngBiVWILKRur69TVlfo=",
+      "last_login": "2022-07-01T08:55:45.623Z",
+      "is_superuser": false,
+      "username": "Premiowy",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-06-27T14:43:52Z",
+      "acc_tier": 2,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "viewer.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$7tcpzAjYyBltlfURZnyGv2$VETQBKymReEDvWdzT4Wv+lj90dnMt7fKSQ7xks4Bmjg=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "enterp",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-06-30T11:24:11Z",
+      "acc_tier": 1,
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 1,
+    "fields": {
+      "user": 1,
+      "picture": "viewer/pictures/golf.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 2,
+    "fields": {
+      "user": 1,
+      "picture": "viewer/pictures/peugeot-308-2022-1280-13.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 3,
+    "fields": {
+      "user": 2,
+      "picture": "viewer/pictures/nissan-almera-recall-airbag.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 4,
+    "fields": {
+      "user": 2,
+      "picture": "viewer/pictures/nissan-leaf-cennik-2022-otwarcie.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 5,
+    "fields": {
+      "user": 2,
+      "picture": "viewer/pictures/nissan-micra.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 6,
+    "fields": {
+      "user": 4,
+      "picture": "viewer/pictures/roadster.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 7,
+    "fields": {
+      "user": 4,
+      "picture": "viewer/pictures/mazda-3-iv.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 8,
+    "fields": {
+      "user": 4,
+      "picture": "viewer/pictures/mercedes-klasa-c-w205.jpg"
+    }
+  },
+  {
+    "model": "viewer.pictures",
+    "pk": 9,
+    "fields": {
+      "user": 4,
+      "picture": "viewer/pictures/polo.jpg"
+    }
+  }
+]

@@ -28,9 +28,11 @@ router = routers.DefaultRouter()
 router.register(r'tiers', AccTiersViewSet, basename='accounttiers')
 router.register(r'users', UserViewSet, basename='user')
 router.register(r'pictures', PictureViewSet, basename='pictures')
+# router.register(r'sdsad', pictures_list, basename='pictures_list')
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    # path('pic', include(pictures_list)),
     path('', include(router.urls)),
     path('viewer-auth/', include('rest_framework.urls', namespace='rest_framework'))
 ]
